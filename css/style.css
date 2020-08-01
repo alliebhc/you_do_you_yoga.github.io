@@ -1,0 +1,336 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+nav {
+    background: white;
+	font-family: Baskerville, serif;
+    display: grid;
+}
+.nav-list {
+    list-style: none;
+}
+.logo {
+    width: 150px;
+}
+a {
+    color: #06687F;
+    text-decoration: none;
+    font-family: Baskerville, serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.main-wrapper {
+    padding-bottom: 15px;
+}
+.image {
+    padding-top: 25px;
+    margin: 0 auto;
+}
+body {
+    background: #FBEDE4;
+    color: #11374F;
+    font-family: Baskerville, serif;
+    font-size: 16px;
+}
+.works a {
+    color: #06687F;
+    text-decoration: none;
+    font-family: Baskerville, serif;
+    font-size: 16px;
+}
+.works a:hover {
+    text-decoration: underline;
+}
+.works {
+    display: grid;
+    justify-content: center;
+    margin: 0 10px;
+}
+.text, .event-text {
+    margin: 0 10px;
+}
+h2 {
+    color: #11374F;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.event-text h3 {
+    color: #11374F;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+h3 {
+    color: #11374F;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h4 {
+    color: #11374F;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+footer {
+    background: white;
+    padding-top: 20px;
+}
+.namaste {
+    max-width: 200px;
+}
+.co_info {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.socials {
+    display: inline;
+    gap: 25px;
+}
+.instagram, .facebook {
+    height: 25px;
+    width: auto;
+    padding: 0 5px 0 5px;
+}
+.nav-list {
+    text-align: center;
+}
+hr {
+    border: 1px solid #11374F;
+}
+.price {
+    margin: 0;
+    text-align: center;
+}
+.choices {
+    margin: 0;
+}
+.new-choices {
+    text-align: center;
+    margin: 0;
+}
+.event-details {
+    text-align: center;
+    margin-top: 0;
+}
+a {
+    color: #06687F;
+    text-decoration: none;
+    font-family: Baskerville, serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+.places {
+    text-align: center;
+}
+.small-print {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.small-image {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.events-h3 h3 {
+    margin-top: 0px;
+}
+.event-small-print {
+    line-height: 2;
+    text-align: center;
+}
+.register-button {
+    background: #06687f;
+	color: white;
+	width: 175px;
+	height: 40px;
+	border: none;
+	border-radius: 3px;
+    font-size: 20px;
+    font-family: Baskerville, serif;
+    margin: 0 auto;
+    display: block;
+}
+.co_info a {
+    color: #11374f;
+    font-size: 16px;
+}
+.abh {
+    width: 40px;
+    margin: 0 auto;
+}
+.location {
+    text-align: center;
+}
+.location p{
+    margin-top: 0;
+}
+.location a {
+    color: #11374f;
+}
+.contact {
+    margin: 0 auto;
+    width:100px;
+    border: 2px solid;
+    font-size: 16px;
+    font-family: Baskerville, serif;
+}
+.send-button {
+    background: #11374f;
+	color: white;
+	width: 125px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+    font-size: 15px;
+    font-family: Baskerville, serif;
+    margin: 0 auto;
+    display: block;
+}
+.trial-button {
+    background: #11374f;
+	color: white;
+	width: 200px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+    font-size: 15px;
+    font-family: Baskerville, serif;
+    margin: 0 auto;
+    display: block;
+}
+.login-button {
+    background: #11374f;
+	color: white;
+	width: 125px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+    font-size: 15px;
+    font-family: Baskerville, serif;
+    margin: 0 auto;
+    display: block;
+}
+
+
+@media (min-width: 768px) {
+    .nav-list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        align-items: center;
+        height: auto;
+    }
+    .logo {
+        width: 150px;
+    }
+    .image {
+        max-width: 900px;
+        padding-top: 25px;
+        margin: 0 auto;
+        display: block;
+    }
+    .small-image {
+        max-width: 286px;
+        margin: 0 auto;
+        display: block;
+    }
+    .main-wrapper {
+        max-width: 1080px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    footer {
+        background: white;
+    }
+    .namaste {
+        padding: 25px 0 0 0;
+        margin: 0 auto;
+    }
+    .co_info {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        align-items: last baseline;
+        font-size: 16px;
+    }
+    .text, .event-text {
+        width: 850px;
+        margin: 0 auto;
+    }
+    .location-text {
+        width: 900px;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+    }
+    .classes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .events {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .events h3 {
+        margin-top: 10px;
+    }
+    .new_yogis, .yogis {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin: 0;
+    }
+    .choices {
+        justify-content: center;
+        display: grid;
+    }
+    h3 {
+        display: grid;
+        justify-content: center;
+    }
+    h4 {
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .practice {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    .location {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+        padding-top: 20px;
+    }
+    .location h3 {
+        justify-content: left;
+        padding-bottom: 0;
+    }
+}
