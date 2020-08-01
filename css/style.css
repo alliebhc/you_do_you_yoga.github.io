@@ -226,6 +226,55 @@ a:hover {
     margin: 0 auto;
     display: block;
 }
+.table {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+.schedule-event {
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+}
+table.schedule-table {
+    font-family: Baskerville, serif;
+    border: 2px solid #11374F;
+    background-color: #f8fbfc;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.schedule-table td {
+    border: 1px solid #11374F;
+    padding: 3px 0px 3px 5px;
+  }
+  .headings {
+    border: 1px solid #11374F;
+    background: #11374F;
+    padding: 3px 0px 3px 5px;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-bottom: 5px solid #FBEDE4;
+  }
+  table.schedule-table th {
+    border: 1px solid #11374F;
+    background: #11374F;
+    padding: 3px 0px 3px 5px;
+    font-family: Baskerville Display PT, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  table.schedule-table tbody td {
+    font-size: 16px;
+    color: #11374F;
+  }
+  table.schedule-table tr:nth-child(even) {
+    background:white;
+  }
 
 
 @media (min-width: 768px) {
